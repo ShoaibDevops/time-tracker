@@ -8,10 +8,10 @@ import org.springframework.stereotype.Component;
  */
 @Component
 @Scope("prototype")
-public class TimeEntry {
-    private String description;
-    private float rate;
-    private int time;
+//public class TimeEntry {
+   // private String description;
+    //private float rate;
+   // private int time;
 
     public String getDescription() {
         return description;
